@@ -23,14 +23,13 @@
 
 ---
 
-Мини-документация:
-
 URI API:
 1) Создание брони - POST /api/reserves
-2) Получение списка броней - GET /api/reserves
-    Для филтра по статусу передать параметр ```status``` 
+2) Получение списка броней - GET /api/reserves<br/>
+    Для фильтра по статусу передать параметр ```status```<br/>
+    Offset и Limit реализованны через параметры ```offset``` и ```limit``` соответственно.<br/>По умолчанию ```limit = 10```, ```offset = 0```
 3) Удаление - DELETE /api/reserves/{id}
 4) Редактирвоания - PUT /api/reserves/{id}
 5) Получить по ID - GET /api/reserves/{id}
-6) Список пользователя - GET /api/reserves
+6) Список пользователя - GET /api/reserves<br/>
     С параметром ```id_user```
