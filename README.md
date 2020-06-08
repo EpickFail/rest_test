@@ -28,9 +28,9 @@
 URI API:
 1) Создание брони - POST /api/reserves
 2) Получение списка броней - GET /api/reserves
-    Для филтра по статусу передать параметр <status> 
+    Для филтра по статусу передать параметр ```status``` 
 3) Удаление - DELETE /api/reserves/{id}
 4) Редактирвоания - PUT /api/reserves/{id}
 5) Получить по ID - GET /api/reserves/{id}
 6) Список пользователя - GET /api/reserves
-    С параметром <id_user>
+    С параметром ```id_user```
